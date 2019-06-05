@@ -16,7 +16,7 @@ div {
     min-height: 2rem;
     min-width: 2rem;
     margin: 2rem;
-    border: 1px solid rgb(141, 202, 202);
+    /* border: 1px solid rgb(141, 202, 202); */
 }
 
 .main {
@@ -26,8 +26,17 @@ div {
 
 .side-bar {
     flex-grow: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .more-info {
     flex-grow: 2;
+}
+
+.work-experience {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.education {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
