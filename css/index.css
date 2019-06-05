@@ -1,12 +1,20 @@
 body {
     background-color: azure;
     font-family: Montserrat, sans-serif;
-   }
+}
 
 .social-media-button {
     height: 2rem;
-  }
+}
 
 .footer {
     text-align: center;
+    background-color: rgb(187, 243, 243);
+}
+
+div {
+    min-height: 2rem;
+    min-width: 2rem;
+    margin: 2rem;
+    border: 1px solid rgb(141, 202, 202);
 }
