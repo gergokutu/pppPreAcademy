@@ -1,6 +1,20 @@
 body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     background-color: azure;
+    color: rgba(68, 68, 182, 0.863);
     font-family: Montserrat, sans-serif;
+    /* font-size: 1.2rem; */
+}
+
+.navbar {
+    background-color: rgb(187, 243, 243);
+}
+
+.divider {
+    border: 0.5px solid rgba(68, 68, 182, 0.863);
 }
 
 .social-media-button {
@@ -12,12 +26,12 @@ body {
     background-color: rgb(187, 243, 243);
 }
 
-div {
+/*  div {
     min-height: 2rem;
     min-width: 2rem;
     margin: 2rem;
-    /* border: 1px solid rgb(141, 202, 202); */
-}
+    border: 1px solid rgb(141, 202, 202); 
+} */
 
 .main {
     display: flex;
@@ -26,11 +40,42 @@ div {
 
 .sidebar {
     flex-grow: 1;
+    max-width: 30%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2rem;
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.profilePicture {
+    max-width: 100%;
+}
+
+.pictureOverlay {
+  /*  position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; */
+    background-color: rgba(68, 68, 182, 1);
+    color:rgb(187, 243, 243);
+    margin: -0.3rem;
+    padding: 1rem;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-weight: bold;
 }
 
 .more-info {
-    flex-grow: 2;
+    flex-grow: 3;
+    max-width: 70%;
+    padding: 2rem;
 }
 
 .work-experience {
@@ -41,10 +86,9 @@ div {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.header {
-    flex-grow: 1;
-}
+
 
 .sidebarMain {
-    flex-grow: 2;
+    
 }
+
