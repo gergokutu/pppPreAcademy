@@ -22,6 +22,11 @@ body {
     height: 2rem;
 }
 
+.social-media-button:hover {
+    background-color: rgba(255, 102, 0, 0.815);
+    border-radius: 50%;
+}
+
 .footer {
     text-align: center;
     background-color: rgb(187, 243, 243);
@@ -113,3 +118,71 @@ li {
     margin: 0 1rem;
 }
 
+/* h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+} */
+
+.sectionTitle {
+    padding: 0.5rem;
+    color: rgb(37, 207, 74);
+}
+
+.sectionIcon {
+    height: 1.5rem;
+    margin: 0 1rem; 
+}
+
+h4 {
+    margin: 1rem;
+}
+
+.progressBar {
+    height: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+.level {
+    border-radius: 2px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(37, 207, 74);
+    color: white;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.ninety {
+    width: 90%;
+}
+
+.seventy {
+    width: 70%;
+}
+
+.eighty {
+    width: 80%;
+}
+
+.beginner {
+    width: 5%;
+    color: rgba(255, 102, 0, 0.815);
+}
+
+.languages {
+    margin-bottom: 2rem;
+}
+
+.languages li {
+    margin: 1rem;
+    list-style: inside;
+}
