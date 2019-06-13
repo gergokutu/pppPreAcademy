@@ -22,9 +22,14 @@ body {
     height: 2rem;
 }
 
-.social-media-button:hover {
+.btn1:hover {
     background-color: rgba(255, 102, 0, 0.815);
     border-radius: 50%;
+}
+
+.btn2:hover {
+    background-color: rgba(255, 102, 0, 0.815);
+    border-radius: 20%;
 }
 
 .footer {
@@ -180,6 +185,7 @@ h4 {
 
 .languages {
     margin-bottom: 2rem;
+    padding-left: 4rem;
 }
 
 .languages li {
